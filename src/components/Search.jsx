@@ -8,9 +8,9 @@ const Search = () => {
       </div>
       <div className="userChat">
         <img src="" alt="" />
-      </div>
-      <div className="userChatInfo">
-        <span>Kofi</span>
+        <div className="userChatInfo">
+          <span>Kofi</span>
+        </div>
       </div>
     </div>
   )
