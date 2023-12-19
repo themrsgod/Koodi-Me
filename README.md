@@ -1,5 +1,5 @@
 # Koodi-Me
-Real-time messaging using Pusher
+Real-time messaging using React, Nodejs, and a third party app.
 - Message notifications and alerts
 - Tailwind design for sleek UI
 - Tailwind animations and transition effects
