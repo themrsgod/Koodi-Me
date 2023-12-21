@@ -8,6 +8,7 @@ import ChatsPage from "./ChatsPage";
 function App() {
   const [user, setUser] = useState(undefined);
 
+  //redirect to Chatpage if there is a valid username
   if (!user) {
     return <AuthPage onAuth={(user) => setUser(user)} />;
   } else {
