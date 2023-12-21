@@ -6,14 +6,17 @@ const app = express();
 app.use(express.json());
 app.use(cors({ origin: true }));
 
+// Chat Engine Project ID and Project Key
 const CHAT_ENGINE_PROJECT_ID = "d07ca29e-cce6-4d73-a5db-313a88b2c0f0";
 const CHAT_ENGINE_PRIVATE_KEY = "65856793-0664-4bc9-a7ed-de47944c5bac";
 
+
+//sends request to the signup page in the frontend.
 app.post("/signup", async (req, res) => {
   const { username} = req.body;
 
   // Store a user-copy on Chat Engine!
-  // Docs at rest.chatengine.io
+  // Note: the private Key and The Secret Key are generated from the chat engine servers.
   try {
     const r = await axios.put(
       "https://api.chatengine.io/users/",
@@ -49,7 +52,7 @@ app.listen(3001);
 
 // vvv On port 3001!      
 
-
+/
 // const app = express();
 // app.use(express.json());
 // app.use(cors({ origin: true }));
