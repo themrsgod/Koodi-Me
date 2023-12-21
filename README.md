@@ -1,2 +1,2 @@
 #KOODI-ME
-##Realtime Chat App for Developers
+Realtime Chat App for Developers
