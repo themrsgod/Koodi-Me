@@ -68,6 +68,7 @@ To run this application locally, follow these steps:
 2. Enter a username to log in.
 3. Explore existing group chats or create your own.
 4. Start communicating with other users in real-time.
+5. To run the app you must have access to projecT ID from the .env file
 
 ## Contributors
 
