@@ -1,6 +1,6 @@
 # Frontend of Koodi-me Chat App
 
-## This is the front end of the Koodi-me Chat app. 
+## This is the front end of the Koodi-me Chat app. (ALX Backend Final Project)
 
 ---
 
