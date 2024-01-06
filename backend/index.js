@@ -29,6 +29,8 @@ app.post("/signup", async (req, res) => {
   }
 });
 
+//sends request to the login page in the frontend
+
 // app.post("/login", async (req, res) => {
 //   const { username, secret } = req.body;
 
